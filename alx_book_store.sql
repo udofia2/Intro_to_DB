@@ -25,7 +25,7 @@ CREATE TABLE Customers (
   customer_id INT AUTO_INCREMENT,
   customer_name VARCHAR(215) NOT NULL,
   email VARCHAR(215) UNIQUE NOT NULL,
-  ADDRESS TEXT,
+  address TEXT,
   PRIMARY KEY (customer_id)
 );
 
